@@ -7,7 +7,13 @@ $imagenes = ControladorImagenes::ctrMostrarImagenes("imagenes");
 
 ?>
 
-
+<div id="modelos" class="container-fluid sobre-nosotros pl-0 pr-0 pt-4 parallax-window" data-parallax="scroll" data-image-src="<?php echo $servidor.$imagenes[3]["rutaImg"]; ?>"><!-- 1700 * 670 -->
+  <div class="container">
+    <div class="col-sm-6 offset-sm-6" style="height: 300px">
+    </div><br>
+  </div>
+  
+</div>
 
 <!-- NOSOTROS -->
 
